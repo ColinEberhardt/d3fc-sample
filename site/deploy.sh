@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e # exit with nonzero exit code if anything fails
 
-# go to the dist directory and create a *new* Git repo
+# create a *new* Git repo
 git init
 
 # The first and only commit to this new Git repo contains all the
